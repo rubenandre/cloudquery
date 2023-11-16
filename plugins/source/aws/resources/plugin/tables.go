@@ -179,6 +179,7 @@ func getTables() schema.Tables {
 		backup.RegionSettings(),
 		backup.ReportPlans(),
 		backup.Vaults(),
+		batch.ComputeEnvironments(),
 		batch.JobQueues(),
 		batch.JobDefinitions(),
 		cloudformation.Stacks(),
